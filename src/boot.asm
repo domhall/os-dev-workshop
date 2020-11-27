@@ -14,6 +14,8 @@ section .bss
 section .text
 global _start:function (_start.end - _start)
 _start:
+    extern kernel_main
+    call kernel_main
     cli
 .hang:
     hlt
