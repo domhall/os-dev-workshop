@@ -1,1 +1,1 @@
-docker run --rm -v "$(pwd):/src" domhall/crosscompile-i686-elf
+docker run --rm -v "$(pwd)/src:/src" domhall/crosscompile-i686-elf
