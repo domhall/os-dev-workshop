@@ -1,6 +1,6 @@
 ;Constants
-FLAGS    equ  0x00000001; Ask the bootloader to page align our modules
 MAGIC    equ  0x1BADB002
+FLAGS    equ  0x00000001; Ask the bootloader to page align our modules
 CHECKSUM equ -(MAGIC + FLAGS) 
 
 section .multiboot
