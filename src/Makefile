@@ -1,4 +1,4 @@
-SOURCES=boot/boot.o kernel/kernel.o
+SOURCES=boot.o kernel.o
 CFLAGS=-std=gnu11 -ffreestanding -O2 -Wall -Wextra -g
 LDFLAGS=-T linker.ld
 ASFLAGS=-felf32
